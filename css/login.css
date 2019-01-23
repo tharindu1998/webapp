@@ -1,6 +1,7 @@
-body {
-    background: rgb(226, 152, 67);
-  }
+body{
+    background-size: cover;
+
+}
   
   .login {
     margin: 20px auto;
