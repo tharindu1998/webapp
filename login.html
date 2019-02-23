@@ -3,7 +3,7 @@
 <head>
     <title>Login</title>
 
-
+    <script src="./js/login.js">  </script>
     <link href="./css/login.css" rel="stylesheet">
 </head>
 
@@ -12,9 +12,9 @@
         
             <h1 class="login-title"><img src="./img/favicon.png"> <hr>&nbsp; Login</h1>
         
-        <input type="text" class="login-input" placeholder="Email Adress" autofocus>
-        <input type="password" class="login-input" placeholder="Password">
-        <input type="submit" value="Lets Go" class="login-button">
+        <input type="text" id="mailId"class="login-input" placeholder="Email Adress" autofocus>
+        <input type="password" id="pwdId" class="login-input" placeholder="Password" >
+        <input type="submit" onclick="validate()"value="Lets Go" class="login-button">
       <p class="login-lost"><a href="register.html">Not a member? signup!</a></p>
       </form>
     
