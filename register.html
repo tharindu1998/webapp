@@ -5,6 +5,7 @@
 
 
     <link href="./css/login.css" rel="stylesheet">
+    <script src="./js/register.js"></script>
 </head>
 
 <body background="img/login-background.png"git >
@@ -12,12 +13,12 @@
         
         <h1 class="login-title"><img src="./img/favicon.png"> <hr>&nbsp; Sign Up</h1>
         
-        <input type="text" class="login-input" placeholder="First Name" autofocus>
-        <input type="text" class="login-input" placeholder="Last Name" autofocus>
-        <input type="text" class="login-input" placeholder="Email Address" autofocus>
-        <input type="password" class="login-input" placeholder="Password">
-        <input type="password" class="login-input" placeholder="Confirm Password">
-        <input type="submit" value="Sign Up" class="login-button">
+        <input type="text" class="login-input" placeholder="First Name" autofocus required>
+        <input type="text" class="login-input" placeholder="Last Name" autofocus required>
+        <input type="email" class="login-input" placeholder="Email Address" autofocus>
+        <input type="password" id="pwd"class="login-input" placeholder="Password">
+        <input type="password" id="pwdC" class="login-input" placeholder="ConfirmPassword">
+        <input type="submit" onclick="validate()" value="Sign Up" class="login-button">
       <p class="login-lost"><a href="login.html">Already a member? signin!</a></p>
       </form>
     
@@ -25,5 +26,5 @@
 </body>
 
 
-
+ 
 </html>
