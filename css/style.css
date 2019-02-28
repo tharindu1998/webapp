@@ -1,0 +1,131 @@
+
+html, body {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    width: 520px;
+    height: 350px;
+    background: #F5F5F5;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+}
+
+p {
+    font-size: 0.6em;
+    color:#BA7E7E;
+    letter-spacing: 1px;
+}
+  
+h1 {
+    font-size: 1.2em;
+    color: #4E4E4E;
+    margin-top: -5px;
+}
+  
+h2 {
+    color: #C3A1A0;
+    margin-top: -5px;
+}
+  
+img {
+    width: 290px;
+    margin-top: 47px;
+}
+
+.product {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 10%;
+    left: 60%;
+}
+
+.desc {
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 17px;
+    color: #4E4E4E;
+    font-size: .7em;
+    line-height: 1.6em;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+button {
+    background: darken(#E0C9CB, 10%);
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: -1px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+button:hover{
+    background: #BA7E7E;
+    transition: all .4s ease-in-out;
+}
+
+.add {
+    width: 67%;
+}
+  
+.like {
+    width: 22%;
+}
+
+.footer-basic-centered{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 45px;
+	margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+
