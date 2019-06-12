@@ -1,13 +1,16 @@
+/*all of page size and all*/
 *{
     margin: 0;
     padding: 0;
   }
-  
+ 
+  /*Distance between Questions*/
   .content{
     justify-content: center;
     align-items: center;
     height:70vh;
-    
+   
+  /*After clicking the questions*/
   }
   .center{
     width: 50%;
@@ -15,10 +18,12 @@
     margin: auto;
   }
   
+  /*distance between questions and anwers only font*/
   details{
     font-family: 'Raleway', sans-serif;
   }
   
+  /*All inside the answer*/
   summary {
       transition: background .75s ease;
       width: 100%;
@@ -32,6 +37,7 @@
       border-top: 1px solid #D3D3D3;
   }
   
+  /*Question */
   h2 {
       color: #1286BC;
       text-align: left;
@@ -40,6 +46,7 @@
       text-shadow: none;
   }
   
+  /*Distance between questions and answers*/
   details p {
       padding: 0 25px 15px 25px;
       margin: 0;
@@ -48,6 +55,7 @@
     line-height: 1.3em;
   }
   
+  /*After clicking the question*/
   summary::after {
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
@@ -57,6 +65,7 @@
       font-size: 180%;
       color: #1d170f;
   }
+  /*After lick hower icon*/
   details[open] summary::after {
       content: '\f106';
       display: inline-block;
@@ -64,9 +73,11 @@
       font-size: 180%;
   }
   
+  /*only background after clicking hower icon*/
   details[open] summary:hover {
     background:none;
   }
+  /*only background of hower*/
   summary:hover {
       background: #d3d3d3;
   }
@@ -77,7 +88,7 @@
 
 
 
-  
+ /*Footer */ 
 .footer-basic-centered{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -90,6 +101,7 @@
 	margin-top: 80px;
 }
 
+/*Footer motto*/
 .footer-basic-centered .footer-company-motto{
 	color:  #8d9093;
 	font-size: 24px;
@@ -102,6 +114,7 @@
 	margin: 0;
 }
 
+/*Footer only link names*/
 .footer-basic-centered .footer-links{
 	list-style: none;
 	font-weight: bold;
@@ -110,6 +123,7 @@
 	margin: 0;
 }
 
+/*After ...... icons */
 .footer-basic-centered .footer-links a{
 	display:inline-block;
 	text-decoration: none;

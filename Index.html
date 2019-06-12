@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang=''>
 
@@ -6,8 +8,7 @@
     <link href="./css/BrandName.css" rel="stylesheet">
     <link href="./css/menu.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
-    <link href="./css/products.css" rel="stylesheet">
-    
+    <link href="./css/products.css" rel="stylesheet">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
 </head>
@@ -42,7 +43,7 @@
             <li class="nav"><a href="./contact.html">Contact</a></li>
             <li class="nav"><a><input type="text" placeholder="Search.."><button type="submit"><i
                             class="fa fa-search"></i></button></a></li>
-            <li class="nav" style="float:right"><a class="active" href="login.html">Login</a></li>
+            <li class="nav" style="float:right"><a class="active" href="login.php">Login</a></li>
         </ul>
 
 
@@ -110,73 +111,22 @@
       <h3>*Terms & Conditons applied</h3>
     </th>
   </table>
-<br>
-  <header id="HomeMenuHead">
-    <table style="width:100%">
-  
-    
-      <th class="SeperatorHeading">
-        <h1 style="text-align:center">Seasonal Offers</h1>
-      </th>
-  
-      
-  
-    </table>
-  
-  </header>
+
   <br>
-  <!-- discounts -->
-  <table>
-    <th>
-      <div class="itemcard">
-        <img src="./img/avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-          <h4><b>Apple</b></h4>
-          <p>iphone x</p>
-        </div>
-      </div>
-    </th>
-    <th>
-      <div class="itemcard">
-        <img src="./img/avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-          <h4><b>Sampsung</b></h4>
-          <p>S10</p>
-        </div>
-      </div>
-    </th>
-    <th>
-      <div class="itemcard">
-        <img src="./img/avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-          <h4><b>Huawie</b></h4>
-          <p>P20 Plus</p>
-        </div>
-      </div>
-    </th>
-    <th>
-      <div class="itemcard">
-        <img src="./img/avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-          <h4><b>John Doe</b></h4>
-          <p>Architect & Engineer</p>
-        </div>
-      </div>
-    </th>
-    <th>
-      <div class="itemcard">
-        <img src="./img/avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-          <h4><b>John Doe</b></h4>
-          <p>Architect & Engineer</p>
-        </div>
-      </div>
-    </th>
-    
-  </table>
+  <!-- cart -->
 
-
-
+  <div class="shopping-cart">
+    <div class="shopping-cart-head">
+      <span class="product-quantity">0</span> Product(s) in Cart
+    </div>
+    <ul class="shopping-cart-list">
+    </ul>
+    <div class="cart-buttons">
+      <a href="#0" class="button empty-cart-btn">Empty</a>
+      <a href="#0" class="button cart-checkout">Checkout - <span class="total-price">$0</span></a>
+    </div>
+  </div>
+</div>
 
 
 
@@ -191,7 +141,7 @@
       <a href="./store.html">Products</a>
       ·
      
-      <a href="./aboutus.html">About</a>
+      <a href="./termsconditons.html">Terms & Conditions</a>
       ·
       <a href="./faq.html">Faq</a>
       ·
@@ -202,6 +152,8 @@
 
   </footer>
   <script src="./js/index.js">  </script>
+  <script src="./js/cart.js">  </script>
+
 </body>
 
 </html>
